@@ -61,4 +61,19 @@ document.addEventListener("DOMContentLoaded", async function () {
     $page.textContent = page;
     page++;
   };
+
+  const $input = document.getElementById("chat_input");
+  const $sendBtn = document.getElementById("chat_send");
+  $sendBtn.addEventListener("click", () => {
+    const $li = document.createElement("div");
+    $li.className = "my_element";
+    const $li_text = document.createElement("div");
+    $li_text.className = "li_text";
+    $li_text.textContent = $input.value;
+    $li.appendChild($li_text);
+    $chatList.appendChild($li);
+    $chatList.scrollTop = $chatList.scrollHeight;
+    $input.value = "";
+    scrollBottom();
+  });
 });

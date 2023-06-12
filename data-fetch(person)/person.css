@@ -1,0 +1,14 @@
+li {
+  background-color: ivory;
+  padding: 5px;
+  margin-top: 5px;
+}
+button {
+  background-color: tomato;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

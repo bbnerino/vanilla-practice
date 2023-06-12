@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#chat_box{
+  background-color: aliceblue;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  height: 300px;
+  width: 300px;
+}
+
+.chat_element{
+  margin-bottom: 20px;
+  background-color: rgb(219, 141, 99);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 30px;
+  font-size: 15px;
+}
